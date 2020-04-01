@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include 'components/Head/index.html' %}
+<body>
+    {% include 'components/Navbar/index.html' %}
+
+    <div class="container mt-3 mb-3">
+        <div class="d-flex align justify-content-center">
+            {% include 'components/Selector/index.html' %}
+        </div>
+        <hr/>
+        <div class="d-flex align-content-between justify-content-around flex-wrap mt-5 mb-5">
+            {% if chapters %}
+                {% for chapter in chapters %}
+                    {% include 'components/Chapter/index.html' %}
+                {% endfor %}
+            {% else %}
+                <div class="spinner-border text-warning" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    {% include 'components/Footer/index.html' %}
+</body>
+</html>

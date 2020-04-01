@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "Gonzalez Exequiel, Leandro Cepeda",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "redis": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "*",
+    "body-parser": "*"
+  }
+}

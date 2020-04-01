@@ -1,0 +1,1 @@
+export const ApiUrlBase = 'http://localhost:3260'
