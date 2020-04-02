@@ -1,0 +1,14 @@
+web:
+    build: .
+    command: sh -c 'pip3 install flask; pip3 install redis; export FLASK_APP=app.py; export FLASK_DEBUG=1; flask run'
+    ports:
+        - '5000:5000'
+    volumes: 
+        - api:/api
+    links:
+        - 'db:redis'
+db:
+    image: redis
+    ports:
+        - '6379:6379'
+        
