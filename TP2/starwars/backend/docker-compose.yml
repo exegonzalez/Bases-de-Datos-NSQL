@@ -4,7 +4,7 @@ web:
     ports:
         - '3260:3260'
     volumes:
-        - /home/exe/Documentos/Bases-de-Datos-NSQL/TP2/starwars/backend/api:/api
+        - ./api:/api
     links:
         - 'db:redis'
 db:
