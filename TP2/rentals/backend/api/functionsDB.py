@@ -1,18 +1,5 @@
 from connectionDB import connect_db
 
-def generate_chapters():
-    con = connect_db()
-    con.flushdb()
-    con.hset("Chapter 1: The Mandalorian", "estado", 'disponible')
-    con.hset("Chapter 2: The Child", "estado", 'disponible')
-    con.hset("Chapter 3: The Sin", "estado", 'disponible')
-    con.hset("Chapter 4: Sanctuary", "estado", 'disponible')
-    con.hset("Chapter 5: The Gunslinger", "estado", 'disponible')
-    con.hset("Chapter 6: The Prisoner", "estado", 'disponible')
-    con.hset("Chapter 7: The Reckoning", "estado", 'disponible')
-    con.hset("Chapter 8: Redemption", "estado", 'disponible')
-    return 'OK'
-
 def rent_chapter(chapter):
     con = connect_db()
     con.hset(chapter, "estado", 'reservado')

@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const port = 3260
+const port = 5000
 const app = express()
 app.set('port', port)
 

@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-api_url_base = 'http://localhost:5000'
+api_url_base = 'http://backend:5000'
 
 @app.route('/', methods=['GET','POST'])
 def index():
@@ -50,5 +50,5 @@ def not_found(e):
 
 
 if __name__ == "__main__":
-    app.run(host='localhost', port='3000', debug=True)
+    app.run(host='frontend', port='3000', debug=True)
 

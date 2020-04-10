@@ -1,0 +1,31 @@
+version: "3"
+services:
+    backend:
+        build: ./backend
+        container_name: 'api-geolocation'
+        command: sh -c 'pip3 install -r requirements.txt; flask run'
+        ports: 
+            - '5000:5000'
+        volumes:
+            - './backend/api:/backend/api'
+        depends_on:
+            - 'db-geolocation'
+
+    db-geolocation:
+        container_name: 'db-geolocation'
+        image: redis
+        ports:
+            - "6379:6379"
+
+    frontend:
+        build: ./frontend
+        container_name: 'api-ui-geolocation'
+        command: sh -c 'npm install; npm start'
+        ports:
+            - '3000:3000'
+        volumes:
+            - ./frontend/geoapi-ui:/frontend/geoapi-ui
+        depends_on:
+            - "backend"
+        stdin_open: true
+        tty: true

@@ -1,0 +1,31 @@
+version: "3"
+services:
+    backend:
+        build: ./backend
+        container_name: 'api-star-wars'
+        command: sh -c 'npm install; npm start'
+        ports: 
+            - '5000:5000'
+        volumes:
+            - './backend/api:/backend/api'
+        depends_on:
+            - 'db-star-wars'
+
+    db-star-wars:
+        container_name: 'db-star-wars'
+        image: redis
+        ports:
+            - "6379:6379"
+
+    frontend:
+        build: ./frontend
+        container_name: 'api-ui-star-wars'
+        command: sh -c 'npm install; npm start'
+        ports:
+            - '3000:3000'
+        volumes:
+            - ./frontend/api-ui:/frontend/api-ui
+        depends_on:
+            - "backend"
+        stdin_open: true
+        tty: true
