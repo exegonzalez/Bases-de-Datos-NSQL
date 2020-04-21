@@ -3,7 +3,7 @@ services:
     backend:
         build: ./backend
         container_name: 'api-rentals'
-        command: sh -c 'pip3 install -r requirements.txt; flask run'
+        command: sh -c 'pip3 install -r requirements.txt; export FLASK_DEBUG=1;flask run; '
         ports: 
             - '5000:5000'
         volumes:
@@ -29,5 +29,3 @@ services:
             - "backend"
         stdin_open: true
         tty: true
-
-    

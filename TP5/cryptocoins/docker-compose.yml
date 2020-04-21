@@ -1,0 +1,38 @@
+version: "3"
+services:
+    api:
+        build: ./backend/api
+        container_name: 'api-cryptocoins'
+        command: sh -c 'pip3 install -r api/requirements.txt; flask run'
+        ports: 
+            - '5000:5000'
+        volumes:
+            - './backend/api:/backend/api'
+        depends_on:
+            - 'db_encrypted'
+            - 'db_decrypted'
+
+    db_encrypted:
+        container_name: 'db_encryptedcoins'
+        image: mongo
+        ports:
+            - '27017:27017'
+
+    db_decrypted:
+        container_name: 'db_decryptedcoins'
+        image: mongo
+        ports:
+            - '27018:27018'
+
+    frontend:
+        build: ./frontend
+        container_name: 'cryptocoins-ui'
+        command: sh -c 'npm install; npm start'
+        ports:
+            - '3000:3000'
+        volumes:
+            - ./frontend/cryptocoins-ui:/frontend/cryptocoins-ui
+        depends_on:
+            - "api"
+        stdin_open: true
+        tty: true

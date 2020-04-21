@@ -1,0 +1,1 @@
+coinmarketcap='fe2cf342-3ded-4503-87aa-a4d3ad2f6e0c'

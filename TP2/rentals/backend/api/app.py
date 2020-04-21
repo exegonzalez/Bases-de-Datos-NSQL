@@ -1,5 +1,4 @@
 from functionsDB import \
-    generate_chapters, \
     pay_chapter, \
     rent_chapter, \
     status_chapter, \
@@ -43,5 +42,5 @@ def status(capitulo):
     return msj
 
 if __name__ == "__main__":
-    app.run(host='backend', port='5000', debug=True)
+    app.run(host='localhost', port='5000', debug=True)
 

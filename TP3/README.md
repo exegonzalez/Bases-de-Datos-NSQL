@@ -7,6 +7,7 @@ separando el backend y el frontend en sus respectivos directorios:
 ·frontend: tp3-NSQL/geolocation/frontend
 
 Instrucciones: para correr el aplicacion debera correr los siguientes comandos en un shell de linux desde el directorio tp3-NSQL
+    
     # Muevase al directorio donde se encuentra el archivo docker-compose.yml
     $ cd geolocation/
 

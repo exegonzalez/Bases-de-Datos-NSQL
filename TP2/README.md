@@ -7,6 +7,7 @@ separando el backend y el frontend en sus respectivos directorios:
 ·frontend: tp2-NSQL/star-wars/frontend
 
 Instrucciones: para correr el aplicacion debera correr los siguientes comandos en un shell de linux desde el directorio tp2-NSQL
+    
     # Muevase al directorio donde se encuentra el archivo docker-compose.yml
     $ cd star-wars/
 
@@ -24,6 +25,7 @@ backend: tp2-NSQL/rentals/backend
 frontend: tp2-NSQL/rentals/frontend
 
 Instrucciones: para correr el aplicacion debera correr los siguientes comandos en un shell de linux desde el directorio tp2-NSQL
+    
     # Muevase al directorio donde se encuentra el archivo docker-compose.yml
     $ cd rentals/
 

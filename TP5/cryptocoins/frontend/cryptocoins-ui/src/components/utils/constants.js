@@ -1,0 +1,1 @@
+export const cryptocoinsURLBase = 'http://localhost:5000'
