@@ -1,0 +1,31 @@
+version: "3"
+services:
+    api:
+        build: ./backend/api
+        container_name: 'api-comics'
+        command: sh -c 'pip3 install -r api/requirements.txt; flask run'
+        ports: 
+            - '5000:5000'
+        volumes:
+            - './backend/api:/backend/api'
+        depends_on:
+            - 'db_comics'
+
+    db_comics:
+        container_name: 'db_comics'
+        image: mongo
+        ports:
+            - '27017:27017'
+
+    frontend:
+        build: ./frontend
+        container_name: 'comics-ui'
+        command: sh -c 'npm install; npm start'
+        ports:
+            - '3000:3000'
+        volumes:
+            - ./frontend/comics-ui:/frontend/comics-ui
+        depends_on:
+            - "api"
+        stdin_open: true
+        tty: true
