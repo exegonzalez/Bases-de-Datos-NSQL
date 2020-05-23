@@ -1,0 +1,33 @@
+version: "3"
+services:
+    api:
+        build: ./backend/api
+        container_name: 'api-clustering-map'
+        command: sh -c '
+            pip3 install -r /backend/api/requirements.txt;
+            flask run'
+        ports: 
+            - '5000:5000'
+        volumes:
+            - './backend/api:/backend/api'
+        depends_on:
+            - 'db_clustering_map'
+
+    db_clustering_map:
+        container_name: 'db_clustering_map'
+        image: mongo
+        ports:
+            - '27017:27017'
+
+    frontend:
+        build: ./frontend/clustering-map-ui
+        container_name: 'clustering-map-ui'
+        command: sh -c 'npm install; npm start'
+        ports:
+            - '3000:3000'
+        volumes:
+            - ./frontend/clustering-map-ui:/frontend/clustering-map-ui
+        depends_on:
+            - "api"
+        stdin_open: true
+        tty: true

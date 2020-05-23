@@ -1,0 +1,1 @@
+export const  ClusteringMapUrlBase = 'http://localhost:5000'
