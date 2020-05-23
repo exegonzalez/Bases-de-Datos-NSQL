@@ -1,4 +1,4 @@
-Trabajo practico numero 2 de Bases de datos NSQL
+#Trabajo practico numero 2 de Bases de datos NSQL
 
 Ejercicio 1: la entrega del correspondiente ejercicio se encuentra en el directorio /star-wars
 separando el backend y el frontend en sus respectivos directorios:

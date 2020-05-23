@@ -7,43 +7,39 @@ import {ProgressSpinner} from 'primereact/progressspinner';
 import axios from 'axios'
 import {ApiUrlBase} from '../../utils/constants'
 
-export default function List(props) {
+export default function CharsList(props) {
     
-    const [error, setError] = useState({isError: false, message: ''})
-    const handleIsError = bool => setError({message: '', isError: bool})
-    const handleErrorMessage = message => setError({message: message, isError: true})
+    const [status, setStatus] = useState({showMessage: false, type: '', message:''})
+    const handleStatus = (showMessage, type='', message='') => setStatus({showMessage: showMessage, type: type, message: message})
 
     const [characters, setCharacters] = useState([])
     const handleCharacters = list => setCharacters(list)
 
-
-    useEffect(() => {
+    useEffect(() => {        
         const fetchCharacters = async listSelected => {
             try {
                 var charsList = null
                 if (listSelected === 'all'){
-                    const charactersDCFetched = await axios.get(`${ApiUrlBase}/dc`)
-                    const charactersMarvelFetched = await axios.get(`${ApiUrlBase}/marvel`)
-                    if (charactersDCFetched.data && charactersMarvelFetched.data)
-                        charsList = [...charactersDCFetched.data, ...charactersMarvelFetched.data]
+                    const charactersFetched = await axios.get(`${ApiUrlBase}/characters`)
+                    charsList = charactersFetched.data
                 } else {
-                    const charactersFetched = await axios.get(`${ApiUrlBase}/${listSelected}`)
+                    const charactersFetched = await axios.get(`${ApiUrlBase}/characters?house=${listSelected}`)
                     charsList = charactersFetched.data
                 }
                 return charsList 
                     ? handleCharacters(charsList) 
-                    : handleErrorMessage('No hay personajes para mostrar')
+                    : handleStatus(true, 'error', 'No hay personajes para mostrar')
             } catch (error) {
-                handleErrorMessage('Ooops! Ha ocurrido un error al cargar la lista de Personajes')
+                handleStatus(true, 'error', 'Ooops! Ha ocurrido un error al cargar la lista de Personajes')
             }
         }
         fetchCharacters(props.listSelected)
-    }, [props]);
+    }, [props.listSelected]);
 
     useEffect(() => {
-        if (error.isError && characters.length !== 0)
-            handleIsError(false)
-    }, [error, characters]);
+        if (status.showMessage && characters.length !== 0)
+            handleStatus(false)
+    }, [status, characters]);
 
     const listCharacters = characterSearched => {
         if (characterSearched !== '')
@@ -55,8 +51,8 @@ export default function List(props) {
         <div className="charsList">
             <div className="p-grid p-justify-center m5">
                 {
-                    error.isError 
-                    ? <Message severity='info' text={error.message}/>
+                    status.showMessage 
+                    ? <Message severity={status.type} text={status.message}/>
                     : null
                 }
             </div>

@@ -1,5 +1,4 @@
-# tp5-nsql
-Trabajo practico numero 5 de Bases de datos NSQL
+#Trabajo practico numero 5 de Bases de datos NSQL
 
 Ejercicio: la entrega del correspondiente ejercicio se encuentra en el directorio /cryptocoins
 separando el backend y el frontend en sus respectivos directorios:

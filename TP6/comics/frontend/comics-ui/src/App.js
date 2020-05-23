@@ -7,6 +7,9 @@ import NewChar from './components/ManageChar/NewChar'
 import EditChar from './components/ManageChar/EditChar'
 import DeleteChar from './components/ManageChar/DeleteChar'
 import Character from './components/Character'
+import NewMovie from './components/ManageMovie/NewMovie'
+import DeleteMovie from './components/ManageMovie/DeleteMovie'
+import Movie from './components/Movie'
 import NotFound from './components/NotFound'
 
 function App() {
@@ -15,10 +18,13 @@ function App() {
       <Switch>
         <Route exact path='/' render={ () => <Redirect to='/home' component={ Home }/>}/>
         <Route exact path='/home' component={ Home }/>
-        <Route exact path='/:house/new' component={ NewChar }/>
-        <Route exact path='/:house/edit' component={ EditChar }/>
-        <Route exact path='/:house/delete' component={ DeleteChar }/>
-        <Route exact path='/:house/characters/:_id' component={ Character }/>
+        <Route exact path='/characters/:house/new' component={ NewChar }/>
+        <Route exact path='/characters/:house/edit' component={ EditChar }/>
+        <Route exact path='/characters/:house/delete' component={ DeleteChar }/>
+        <Route exact path='/characters/:house/:_id' component={ Character }/>
+        <Route exact path='/movies/new' component={ NewMovie }/>
+        <Route exact path='/movies/delete' component={ DeleteMovie }/>
+        <Route exact path='/movies/:_id' component={ Movie }/>
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>

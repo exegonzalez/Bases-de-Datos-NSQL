@@ -1,6 +1,6 @@
 characters = [{
         "name": "Hank Pym",
-        "character_name": "Ant Man",
+        "character_name": "Ant-Man",
         "year_of_appearance": "1962",
         "house": "Marvel",
         "biography": "El Hombre Hormiga original fue el doctor Henry 'Hank' Pym, experto en biofísica y miembro del Centro de Operaciones de Seguridad que decidió convertirse en un superhéroe después de la muerte de su primera esposa, Maria Trovaya, quien había sido disidente política en su natal Hungría. Enamorada de él y creyendo que su ciudadanía estadounidense la protegería, Maria se casó con Hank y, poco después, viajó con él a Hungría, para comenzar una nueva vida juntos. Desafortunadamente, fueron confrontados por agentes corruptos de la policía secreta. Hank quedó inconsciente y María fue asesinada. Pym estaba muy angustiado por la muerte de su esposa, y decidió hacer todo lo posible en el futuro para luchar contra la injusticia. Después de descubrir una sustancia química que él llamó partículas Pym, que permitiría al usuario modificar su tamaño, se armó con un casco con el cual podía controlar a las hormigas. Después de eso, Pym se reduciría al tamaño de un insecto y se convertiría en la solución misteriosa de Ant-Man para resolver crímenes y detener a los criminales.",
@@ -11,10 +11,13 @@ characters = [{
             "https://i.pinimg.com/236x/58/fc/f8/58fcf80a684e400ea2ba47228b5bd61a.jpg",
             "https://i.pinimg.com/236x/95/9f/37/959f370d24279c831630dc7f30efd683.jpg",
             "https://i.pinimg.com/236x/64/0c/db/640cdbfe6ba4786d0e73b08e7e37ea3f.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Steven Grant Rogers",
-        "character_name": "Capitán América",
+        "character_name": "Captain America",
         "year_of_appearance": "1941",
         "house": "Marvel",
         "biography": "El Capitán América viste un traje que lleva un motivo de la bandera de los Estados Unidos, y utiliza un escudo casi indestructible que lanza como proyectil. El personaje es generalmente representado como el álter ego de Steve Rogers, un joven frágil mejorado a la cima de la perfección humana por un suero experimental para ayudar a los esfuerzos inminentes del gobierno de Estados Unidos en la Segunda Guerra Mundial. Cerca del final de la guerra, queda atrapado en el hielo y sobrevive en animación suspendida hasta que es descongelado en el presente. A pesar de que el Capitán América a menudo lucha por mantener sus ideales como un hombre fuera de su tiempo con sus realidades modernas, sigue siendo una figura muy respetada en su comunidad, hasta convertirse en el líder de Los Vengadores.",
@@ -26,10 +29,14 @@ characters = [{
             "https://i.pinimg.com/236x/b9/19/4f/b9194fe00488531645442acec0120e07.jpg",
             "https://i.pinimg.com/236x/66/87/03/6687035528c3c44b1aa1d07db8f8f7d8.jpg",
             "https://i.pinimg.com/236x/4e/99/61/4e99615e2df13114026e95626588bd13.jpg"
+        ],
+        "movies":[
+            "Captain America: The First Avenger",
+            "Avengers: Endgame"
         ]
     },{
         "name": "T'Challa",
-        "character_name": "Pantera Negra",
+        "character_name": "Black Panther",
         "year_of_appearance": "1966",
         "house": "Marvel",
         "biography": "Es el rey y protector de la nación africana de Wakanda. Además de poseer habilidades mejoradas logradas a través de rituales antiguos de Wakanda de beber la esencia de la hierba en forma de corazón, T'Challa también confía en su dominio de la ciencia, el entrenamiento físico riguroso, las habilidades de combate mano a mano y el acceso a la riqueza y la avanzada tecnología de Wakanda para combatir a sus enemigos.",
@@ -40,10 +47,13 @@ characters = [{
             "https://i.pinimg.com/236x/c2/a6/5d/c2a65d04f55a32e9b5534b6fff935117.jpg",
             "https://i.pinimg.com/236x/08/d8/be/08d8beb51cf4785f55449c2db3d4f072.jpg",
             "https://i.pinimg.com/236x/24/cc/2a/24cc2ac5e47ae4da44020b52275a58f4.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Claire Voyant",
-        "character_name": "Viuda Negra",
+        "character_name": "Black Widow",
         "year_of_appearance": "1940",
         "house": "Marvel",
         "biography": "Claire Voyant es una médium espiritual que se comunica con los muertos a través de medios sobrenaturales. Mientras servía a una familia llamada Waglers, Satanás la posee para maldecirlos. James, un miembro de esa familia, sobrevive a un posterior accidente automovilístico provocado por el hechizo y, al regresar a las habitaciones de Claire, la mata. El alma de Voyant va al infierno, donde Satanás la viste con su disfraz de Viuda Negra. Él también le da el poder de matar con un solo toque de sus dedos en la cabeza (que deja una marca de Marca de la Viuda Negra) y otros trucos místicos.",
@@ -54,6 +64,9 @@ characters = [{
             "https://i.pinimg.com/236x/ad/8e/b3/ad8eb3697a37c70d592cd1a56b1187d4.jpg",
             "https://i.pinimg.com/236x/fd/29/df/fd29dfbb0e1cd27efb58814ff2f6d52a.jpg",
             "https://i.pinimg.com/236x/e8/42/42/e8424264e38de9c91b417c5ec39e3ef8.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Stephen Strange",
@@ -69,6 +82,10 @@ characters = [{
             "https://i.pinimg.com/236x/f4/ba/45/f4ba45087e58de3dda6061cd032b8898.jpg",
             "https://i.pinimg.com/236x/c7/0d/d7/c70dd7cf3e6c31d762f6d62e7908f141.jpg",
             "https://i.pinimg.com/236x/53/ef/9b/53ef9b5294a9f5a5db55b46a9818fd55.jpg"
+        ],
+        "movies":[
+            "Doctor Strange",
+            "Avengers: Endgame"
         ]
     },{
         "name": "Samuel Thomas Sam Wilson",
@@ -83,6 +100,9 @@ characters = [{
             "https://i.pinimg.com/236x/67/ca/ab/67caabcbdb87d89d5738dd10742fb56f.jpg",
             "https://i.pinimg.com/236x/ea/0f/ff/ea0fff3f298e2197ad0526e7fc1c3664.jpg",
             "https://i.pinimg.com/236x/86/fd/59/86fd598d9a2ad43f2a0130686c0a8520.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Gamora Zen Whoberi Ben Titan",
@@ -97,10 +117,13 @@ characters = [{
             "https://i.pinimg.com/236x/2a/19/7a/2a197a43f1fd3db6b7f962bd3ddc9a2b.jpg",
             "https://i.pinimg.com/236x/dc/1a/72/dc1a72b9f12a84ccf83592c09eea5d14.jpg",
             "https://i.pinimg.com/236x/3f/44/64/3f446435ace64c32c2d9bf97c732e964.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Clinton Francis Clint Barton",
-        "character_name": "Ojo de Halcón",
+        "character_name": "Hawkeye",
         "year_of_appearance": "1964",
         "house": "Marvel",
         "biography": "Clint Barton nació en Waverly, Iowa. A una edad joven perdió a sus padres en un accidente automovilístico. Después de seis años en un orfanato, Clint y su hermano Barney se escaparon para unirse al Carnaval Viajero de Maravillas Carson. Clint pronto llamó la atención del Espadachín, que tomó al niño como su asistente. Junto con la ayuda de Trick Shot, el espadachín entrenador, Clint decide convertirse en un maestro arquero.",
@@ -111,6 +134,9 @@ characters = [{
             "https://i.pinimg.com/236x/53/6a/2d/536a2da285888c7c67b86f60ca10c6b3.jpg",
             "https://i.pinimg.com/236x/92/e8/3d/92e83dd4af5032d05ed54e9170df7e4a.jpg",
             "https://i.pinimg.com/236x/72/c8/8e/72c88e687adb86fc58a0181080df2e8c.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Robert Bruce Banner",
@@ -126,6 +152,9 @@ characters = [{
             "https://i.pinimg.com/236x/ca/34/fb/ca34fb3701420dccbc8a914959bafcbe.jpg",
             "https://i.pinimg.com/236x/ed/77/b0/ed77b0263f94d1884b645d2816f6e475.jpg",
             "https://i.pinimg.com/236x/f4/07/6b/f4076bb2fe7e83f3da1cb6962ca30d98.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Anthony Edward Stark",
@@ -141,10 +170,13 @@ characters = [{
             "https://i.pinimg.com/236x/41/90/03/419003b6842424050e3b3280a5c2f86a.jpg",
             "https://i.pinimg.com/236x/81/95/67/8195673eaf4df955e49e3a6383edfc65.jpg",
             "https://i.pinimg.com/236x/30/9f/bc/309fbc36884ed650a167bb3e738098cd.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Johann Schmidt",
-        "character_name": "Cráneo Rojo",
+        "character_name": "Red Skull",
         "year_of_appearance": "1941",
         "house": "Marvel",
         "biography": "Johann Schmidt era un exgeneral oficial nazi y confidente de Adolf Hitler. Ha estado íntimamente afiliado con Hydra y es enemigo de S.H.I.E.L.D., Los Vengadores, y otros intereses de los Estados Unidos y el mundo en general. Fue físicamente mejorado al traspasar su cerebro al cuerpo de un clon del Capitán América, que se encuentra en el pináculo de la perfección humana. Estuvo presuntamente muerto en el pasado, sólo para regresar al tiempo una y otra vez para plagar el mundo con esquemas de dominación global y genocidio.",
@@ -155,10 +187,13 @@ characters = [{
             "https://i.pinimg.com/236x/00/c7/b6/00c7b61f97a1d4e8f946a258c3db2ed9.jpg",
             "https://i.pinimg.com/236x/a3/17/5a/a3175a72cb3f86fcc7e65c629cf671b6.jpg",
             "https://i.pinimg.com/236x/0f/11/bd/0f11bd7f30b1341303c0fc59b8186b73.jpg"
+        ],
+        "movies":[
+            "Captain America: The First Avenger"
         ]
     },{
         "name": "Peter Benjamin Parker",
-        "character_name": "Spider Man",
+        "character_name": "Spider-Man",
         "year_of_appearance": "1962",
         "house": "Marvel",
         "biography": "Peter Benjamin Parker es un científico huérfano que vive con su tío Ben y su tía May. Es mordido por una araña radioactiva en una exhibición de ciencias y adquiere la agilidad y la fuerza proporcional de un arácnido. Junto con la súper fuerza, Parker gana la capacidad de adherirse a paredes y techos. A través de su habilidad nativa para la ciencia, desarrolla un dispositivo que le permite disparar cintas adhesivas de su propio diseño a través de pequeños barriles montados en la muñeca. Inicialmente buscando capitalizar sus nuevas habilidades, Parker se pone un disfraz y, como Spider-Man, se convierte en una estrella de televisión novedosa.",
@@ -170,10 +205,14 @@ characters = [{
             "https://i.pinimg.com/236x/84/94/fa/8494fad7f3cf942c797af5b380772874.jpg",
             "https://i.pinimg.com/236x/5a/51/66/5a51664194664d33cbc102f8910511dd.jpg",
             "https://i.pinimg.com/236x/81/e4/76/81e4764451034c9d052122205a62944f.jpg"
+        ],
+        "movies":[
+            "Spider-Man: Far from Home",
+            "Avengers: Endgame"
         ]
     },{
         "name": "Peter Jason Quill",
-        "character_name": "Star Lord",
+        "character_name": "Star-Lord",
         "year_of_appearance": "1976",
         "house": "Marvel",
         "biography": "Cuando por accidente la nave de J'son cae en la Tierra, él es rescatado por Meredith Quill. Los dos forman una relación, mientras J'son hace reparaciones a su nave. Eventualmente, J'son se ve obligado a salir para regresar a casa y luchar en una guerra. Se va, sin saber que Meredith está embarazada de Peter Quill. 10 años más tarde, Meredith es asesinada cuando es atacada por dos soldados Badoon que han venido a matar a Peter y terminar la línea de sangre de J'son. Peter los mata con una pistola, encuentra la pistola de su padre por accidente, y escapa de su casa antes de que sea destruida por la nave Badoon. Los Badoon presumen que Peter es asesinado y se va. Peter es colocado en un orfanato y finalmente se une a la NASA. Finalmente se explicó que fue criado por su madre Lisa Chang, que era comandante de la NASA.",
@@ -184,7 +223,8 @@ characters = [{
             "https://i.pinimg.com/236x/62/a2/72/62a272f55b6207dadf3b514f6139bc11.jpg",
             "https://i.pinimg.com/236x/88/43/fc/8843fca1fd1df67f1a27a103d30a0d33.jpg",
             "https://i.pinimg.com/236x/ca/77/01/ca7701e5e611ec4459b9941a80c18821.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Thanos The Titan",
         "character_name": "Thanos",
@@ -199,6 +239,9 @@ characters = [{
             "https://i.pinimg.com/236x/dd/11/66/dd1166ebe28880bff2d223f095cf71be.jpg",
             "https://i.pinimg.com/236x/d1/42/13/d14213d63ea1d18db97949e66e058404.jpg",
             "https://i.pinimg.com/236x/e5/85/4c/e5854cff8b99a59b1bf313f2b70506e1.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "Thor Odinson",
@@ -213,10 +256,14 @@ characters = [{
             "https://i.pinimg.com/236x/09/9a/b9/099ab9bdac562d7dcc05d6b18e59e938.jpg",
             "https://i.pinimg.com/236x/d8/a6/60/d8a660bf99df2ae8abb39b0dcc225162.jpg",
             "https://i.pinimg.com/236x/60/31/fe/6031fe28cd41aaec2016370986829ab2.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame",
+            "Thor: The Dark World"
         ]
     },{
         "name": "Vision",
-        "character_name": "Visión",
+        "character_name": "Vision",
         "year_of_appearance": "1968",
         "house": "Marvel",
         "biography": "El robot Ultron es el creador de Visión, un tipo de androide que él llama un synthezoide, para usar contra el propio creador de Ultron, el Dr. Hank Pym (Ant-Man / Giant Man / Goliath / Yellowjacket) y la esposa de Pym, Janet van Dyne (la Avispa) del equipo de superhéroe Los Vengadores. Ultron envía a su nuevo sirviente para llevar a los Vengadores a una trampa. Avispa es la primera en encontrar el synthezoide, y lo describe como una visión mientras trata de escapar. Adoptando el nombre, los Vengadores convencen a la Visión para que se vuelva contra Ultron.",
@@ -227,10 +274,11 @@ characters = [{
             "https://i.pinimg.com/236x/70/3c/6d/703c6db1dd79410327e7996df42074ae.jpg",
             "https://i.pinimg.com/236x/d4/89/ec/d489ecd3ffbfe1dcfc8cc8d79a6c0dfb.jpg",
             "https://i.pinimg.com/236x/af/3f/f2/af3ff28e82628da79f83aa7f99bccbde.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "James Rupert Rhodes",
-        "character_name": "Máquina de Guerra",
+        "character_name": "War Machine",
         "year_of_appearance": "1979",
         "house": "Marvel",
         "biography": "James Rhodey Rhodes, de la sección del sur de Filadelfia en Filadelfia, Pensilvania, era teniente en el Cuerpo de Marines de los Estados Unidos y se desempeñaba en misiones en el sudeste asiático. Piloto de combate, quedó varado en la jungla detrás de las líneas enemigas después de que su helicóptero fue derribado por los cohetes del Viet Cong. Se encuentra con Iron Man, que escapó del campo de prisioneros de Wong-Chu con su prototipo de armadura motorizada, por primera vez.",
@@ -241,10 +289,13 @@ characters = [{
             "https://i.pinimg.com/236x/14/b9/8b/14b98b04e5ddbfb1a4ca318941fa2f59.jpg",
             "https://i.pinimg.com/236x/6a/bd/9d/6abd9decd9c40dcc2b39721c76078d02.jpg",
             "https://i.pinimg.com/236x/86/f0/a4/86f0a422e15add8f080bcddd85f2be7d.jpg"
+        ],
+        "movies":[
+            "Avengers: Endgame"
         ]
     },{
         "name": "James Buchanan Bucky Barnes",
-        "character_name": "Bucky Barnes",
+        "character_name": "Winter Soldier",
         "year_of_appearance": "1941",
         "house": "Marvel",
         "biography": "James Buchanan Barnes nació en Shelbyville, Indiana en 1917. ​Barnes creció como un mocoso del ejército. Él es un huérfano, hijo de un soldado asesinado en entrenamiento en el Campamento Lehigh del Ejército de los EE. UU. en Virginia justo antes de la entrada de Estados Unidos en la Segunda Guerra Mundial. Como resultado, se une al grupo de militares más como mascota que como un soldado. Apodado Bucky, viste un uniforme y se convierte en experto en los pormenores de la vida militar, a pesar de ser un adolescente. Fue en Lehigh que conoció y se hizo amigo del Soldado Steven Rogers, que según todas las apariencias es el más torpe soldado en el campo. Fue al mismo tiempo que ve cómo el entonces misterioso Capitán América comienza a aparecer en revistas de noticias, y Barnes devora con avidez las historias de este nuevo héroe.",
@@ -255,6 +306,10 @@ characters = [{
             "https://i.pinimg.com/236x/da/a6/c4/daa6c4e968da0c622114292e709cca9c.jpg",
             "https://i.pinimg.com/236x/c4/2a/55/c42a55b3630f4a06cd354c4e290fc937.jpg",
             "https://i.pinimg.com/236x/63/cc/2c/63cc2c1326b5e0abb95fcd507ff74328.jpg"
+        ],
+        "movies":[
+            "Captain America: The First Avenger",
+            "Avengers: Endgame"
         ]
     },{
         "name": "Wade Winston Wilson",
@@ -269,7 +324,8 @@ characters = [{
             "https://i.pinimg.com/236x/51/35/a6/5135a6d678a081021cda50a890db7636.jpg",
             "https://i.pinimg.com/236x/3d/9b/d7/3d9bd776d95ec608b0275b3a79d4405e.jpg",
             "https://i.pinimg.com/236x/4b/62/c9/4b62c95a303ff4b5447e6613ca0d1721.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Alfred Thaddeus Crane Pennyworth",
         "character_name": "Alfred Pennyworth",
@@ -283,6 +339,11 @@ characters = [{
             "https://i.pinimg.com/236x/cd/21/8e/cd218e74801eff1a019c6dd828f9f681.jpg",
             "https://i.pinimg.com/236x/0e/4c/f9/0e4cf97ca3cda69c493cfdfdc33a4f50.jpg",
             "https://i.pinimg.com/236x/ef/14/cd/ef14cd5d69a8eec8ae8443bfee815825.jpg"
+        ],
+        "movies":[
+            "Batman Begins",
+            "Joker",
+            "Batman v Superman: Dawn of Justice"
         ]
     },{
         "name": "Amanda Blake Waller",
@@ -297,10 +358,11 @@ characters = [{
             "https://i.pinimg.com/236x/9c/d0/7c/9cd07c2287360ad0f1834bf31d858c76.jpg",
             "https://i.pinimg.com/236x/c9/8a/24/c98a24a2f6d671f282015c360efc23e3.jpg",
             "https://i.pinimg.com/564x/f8/a4/84/f8a4847f857aba3af2c832b508657c9d.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Amy Winston",
-        "character_name": "Amatista",
+        "character_name": "Amethyst",
         "year_of_appearance": "1983",
         "house": "DC",
         "biography": "Aunque fue criada en la Tierra y creía ser una niña humana normal, Amy Winston pronto se enteró de que en realidad era Amatista, Princesa del Mundo de las Gemas. La princesa Amaya era hija de la gobernante Casa de la Amatista en Gemworld. Pero cuando era solo una niña, su Casa cayó en el caos tras el levantamiento de la Casa de Opal y su despiadado gobernante, Dark Opal. Afortunadamente, una bruja llamada Citrina logró salvar a Amethyst antes de que Dark Opal pudiera asesinarla, enviándola a la Tierra a vivir con una familia humana bajo el nombre falso de Amy Winston. Sin embargo, cuando Amy cumplió 13 años, Dark Opal rastreó a su familia humana y atacó, obligando a Amy a conocer la verdad de su herencia. Posteriormente, Amy regresó a Gemworld, donde supo que había heredado las habilidades mágicas y los deberes que le correspondían a raíz de la destrucción de su familia. Ahora hija de dos mundos, Amy se ve obligada a equilibrar su amor por su hogar adoptivo en la Tierra y su deber con la gente de Gemworld como Amatista, princesa y defensora de un reino que apenas está comenzando a entender.",
@@ -311,10 +373,11 @@ characters = [{
             "https://i.pinimg.com/236x/17/18/8f/17188f1891a714da0eb683f3365d9ed1.jpg",
             "https://i.pinimg.com/236x/8b/a6/8b/8ba68b499217e9040552f05fc564bf03.jpg",
             "https://i.pinimg.com/236x/4b/7e/0e/4b7e0eaaea8103af814b8f6169cf7875.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Lonnie Machin",
-        "character_name": "Anarquía",
+        "character_name": "Anarky",
         "year_of_appearance": "1989",
         "house": "DC",
         "biography": "Muy inteligente y profundamente filosófico, Lonnie Machin desarrolló un fuerte código ético y apolítico. Al observar el mundo que lo rodeaba, vio corrupción, opresión social y el sufrimiento de la gente común, y vio que el gobierno no hacía nada al respecto. Siguiendo el ejemplo del Caballero Oscuro, Machin estudió artes marciales y utilizó sus habilidades de ingeniería y conocimiento de la tecnología informática para convertirse en un vigilante: Anarky. Aunque se considera un héroe como Batman y cree que la anarquía ayudaría a la gente a ayudarse a sí misma, Batman considera que los métodos y acciones de Anarky son infantiles y violentos, y considera a Anarky una amenaza pública, simple y llanamente.",
@@ -325,10 +388,11 @@ characters = [{
             "https://i.pinimg.com/236x/aa/cd/54/aacd543ae7b2e566987480679c9408b6.jpg",
             "https://i.pinimg.com/236x/5d/37/93/5d379359e8bedf9dd27c35446c8b48c8.jpg",
             "https://i.pinimg.com/236x/d6/8b/5f/d68b5fa8368db8ebd723b83854bda14b.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Mobius",
-        "character_name": "Antimonitor",
+        "character_name": "Anti-Monitor",
         "year_of_appearance": "1985",
         "house": "DC",
         "biography": "El Anti-Monitor es quizás la mayor amenaza que la creación haya conocido. Nacido hace unos 13 mil millones de años en el Universo Antimateria, la poderosa entidad conquistó su universo y buscó destruir todos los universos de materia positiva y expandir su propio reino oscuro. Él desató una ola de antimateria en el Multiverso, asesinando billones y borrando universos de la existencia con su ejército de demonios en la sombra. Se le opuso su gemelo benevolente, el Monitor, que reunió héroes de todos los mundos para detenerlo en el evento conocido como la Crisis en las Tierras Infinitas.",
@@ -339,7 +403,8 @@ characters = [{
             "https://i.pinimg.com/236x/66/c1/b8/66c1b851ad50698157b51409f505f319.jpg",
             "https://i.pinimg.com/236x/e6/88/32/e688326b999aa2585204dc5eefd6dcb4.jpg",
             "https://i.pinimg.com/236x/76/2d/4c/762d4c109e9f56099949716937226cd8.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Arthur Curry",
         "character_name": "Aquaman",
@@ -354,6 +419,10 @@ characters = [{
             "https://i.pinimg.com/236x/07/f8/3b/07f83b0965f28a9d9e36e9df98e89376.jpg",
             "https://i.pinimg.com/236x/df/25/5e/df255edb20fa74540f3fb3cfcad3a6f0.jpg",
             "https://i.pinimg.com/236x/8f/1d/6f/8f1d6f915dc86cdf0b69ccb40c43554f.jpg"
+        ],
+        "movies":[
+            "Aquaman",
+            "Batman v Superman: Dawn of Justice"
         ]
     },{
         "name": "Ares",
@@ -368,7 +437,8 @@ characters = [{
             "https://i.pinimg.com/236x/05/ef/24/05ef24bfa8982fe5b1d4a7b9b02e4ec5.jpg",
             "https://i.pinimg.com/236x/9f/c0/ce/9fc0cec4b22a98506dadf011288446ef.jpg",
             "https://i.pinimg.com/236x/a5/c4/63/a5c4631e24ae2409ab2d20f3cc28736b.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Roy William Harper Jr",
         "character_name": "Arsenal",
@@ -382,7 +452,8 @@ characters = [{
             "https://i.pinimg.com/236x/20/33/74/2033744b1fd0975c3a8dd354deca3ed6.jpg",
             "https://i.pinimg.com/236x/ce/56/de/ce56dee6cf8b0a7d9f923e8bf262226f.jpg",
             "https://i.pinimg.com/236x/9c/a0/22/9ca022a6960827b46c68615276a8f1aa.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Clark Joseph Kent",
         "character_name": "Superman",
@@ -397,10 +468,14 @@ characters = [{
             "https://i.pinimg.com/236x/02/93/c6/0293c686524c1779ce23f509104ba52f.jpg",
             "https://i.pinimg.com/236x/b5/51/5d/b5515d68c6e96dc110cc6ebae0e1be07.jpg",
             "https://i.pinimg.com/236x/2b/cb/c3/2bcbc3168105e5041112ade9637a8e7a.jpg"
+        ],
+        "movies":[
+            "Superman Returns",
+            "Batman v Superman: Dawn of Justice"
         ]
     },{
         "name": "Al Pratt",
-        "character_name": "Átomo",
+        "character_name": "Atom",
         "year_of_appearance": "1965",
         "house": "DC",
         "biography": "La encarnación viviente de, El tamaño no importa, el átomo desata todo el poder de su homónimo contra el mal. En la década de 1940, muchas personas fueron impulsadas a convertirse en héroes y luchadores contra el crimen. Después de años de lidiar con matones, Al Pratt entrenó para convertirse en un luchador y protegió a otros de los matones al ponerse la máscara y la capa del átomo. Después de retirarse de su vida heroica, se embarcó en una carrera en física.",
@@ -411,7 +486,8 @@ characters = [{
             "https://i.pinimg.com/236x/c7/1b/24/c71b2423bf012d6235476c5023a8c510.jpg",
             "https://i.pinimg.com/236x/40/84/00/408400f450956dabdb0cbc04acb23393.jpg",
             "https://i.pinimg.com/236x/ba/90/bb/ba90bb4d2e9c319a92b999b6730d5817.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Atros",
         "character_name": "Atrocitus",
@@ -425,7 +501,8 @@ characters = [{
             "https://i.pinimg.com/236x/ae/7b/e8/ae7be89f24e0fd243478554c5efaa064.jpg",
             "https://i.pinimg.com/236x/b4/49/1b/b4491b5a9221b3d1cfbfa15da3aaa368.jpg",
             "https://i.pinimg.com/236x/9a/6d/99/9a6d990f847367853003e8ac3303d484.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Antonio Diego Dorrance",
         "character_name": "Bane",
@@ -439,7 +516,8 @@ characters = [{
             "https://i.pinimg.com/236x/dc/1d/39/dc1d3941989b25a5a43e5d0671e751b0.jpg",
             "https://i.pinimg.com/236x/7c/d4/06/7cd406e7c53380a92be233243d0610bd.jpg",
             "https://i.pinimg.com/236x/0a/30/36/0a30363cd7a6d407a8615e4ea023927f.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Barbara Gordon",
         "character_name": "Batgirl",
@@ -453,7 +531,8 @@ characters = [{
             "https://i.pinimg.com/236x/fd/c4/eb/fdc4eb7c73b209dbef0fcb0fa6ad1642.jpg",
             "https://i.pinimg.com/236x/cc/2f/35/cc2f35bf3f68f32aa1edfb1acbcaf7af.jpg",
             "https://i.pinimg.com/236x/ed/d4/2e/edd42efbc2b9ac52f64614b18401a0d1.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Bruce Wayne",
         "character_name": "Batman",
@@ -468,6 +547,10 @@ characters = [{
             "https://i.pinimg.com/236x/2d/db/71/2ddb710667bdcc84be43b92fa5c6fc8a.jpg",
             "https://i.pinimg.com/236x/4e/ce/1b/4ece1b28f3a4e042a3e6ca5c991e2199.jpg",
             "https://i.pinimg.com/236x/61/2d/df/612ddfb7268f0e6044a6b410431f8294.jpg"
+        ],
+        "movies":[
+            "Batman Begins",
+            "Batman v Superman: Dawn of Justice"
         ]
     },{
         "name": "Katherine Rebecca Kate Kane",
@@ -482,7 +565,8 @@ characters = [{
             "https://i.pinimg.com/236x/e6/c0/28/e6c02831186365efcf0c566fa0e3073e.jpg",
             "https://i.pinimg.com/236x/32/ab/fe/32abfed8e8184ad0f1862d777cc73bfd.jpg",
             "https://i.pinimg.com/236x/0b/77/66/0b77666d7d36294274f0e5fd869a22ba.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Garfield Mark Logan",
         "character_name": "Beast Boy",
@@ -496,7 +580,8 @@ characters = [{
             "https://i.pinimg.com/236x/4b/b0/89/4bb08910195148130e8e25e27af51a59.jpg",
             "https://i.pinimg.com/564x/6f/ed/f2/6fedf253c7c084ff34972ba1c6e3db99.jpg",
             "https://i.pinimg.com/564x/a4/11/b0/a411b0f768f695fbccb5e3fb512410e6.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Barda Free",
         "character_name": "Big Barda",
@@ -510,7 +595,8 @@ characters = [{
             "https://i.pinimg.com/236x/f5/58/ec/f558ec9e74669c05fcb3f626f6233121.jpg",
             "https://i.pinimg.com/236x/00/e8/cf/00e8cf1b5e76d0a659e7f7090e9484c3.jpg",
             "https://i.pinimg.com/564x/a6/62/81/a66281d212802b52bb5a63a6587dd705.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Roman Sionis",
         "character_name": "Black Mask",
@@ -524,10 +610,11 @@ characters = [{
             "https://i.pinimg.com/236x/d2/66/2d/d2662d9b5849f1f603f3a62a52373040.jpg",
             "https://i.pinimg.com/236x/17/e7/ee/17e7eec2e90e647a1e22c89b74a3fea0.jpg",
             "https://i.pinimg.com/236x/ac/f9/29/acf9295100e9b4a9d0f93fad70662920.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Diana de Temiscira",
-        "character_name": "Mujer Maravilla",
+        "character_name": "Wonder Woman",
         "year_of_appearance": "1941",
         "house": "DC",
         "biography": "Una de las superhéroes DC más queridos e icónicos de todos los tiempos, Wonder Woman se ha mantenido durante casi ochenta años como un símbolo de verdad, justicia e igualdad para las personas en todas partes. Criada en la isla escondida de Themyscira, también conocida como Isla Paraíso, Diana es una amazona, como las figuras de la leyenda griega, y el regalo de su pueblo para la humanidad. Como emisaria de Themyscira en Mans World, Diana ha cumplido con su deber de predicar con el ejemplo, incluso si las diferencias entre su lugar de nacimiento y su nuevo hogar a veces presentan obstáculos para que ella salte. Ella ha llegado a representar la posibilidad y el potencial de la vida sin guerra, odio o violencia, y es un faro de esperanza para todos los que se encuentran en necesidad. Ella es una igual entre los superhéroes más poderosos, con un sentido de propósito para proteger al mundo de la injusticia en todas sus formas.",
@@ -539,10 +626,11 @@ characters = [{
             "https://i.pinimg.com/236x/f6/d6/67/f6d6674c7f9e1c364be3cce55a6fadd7.jpg",
             "https://i.pinimg.com/236x/f6/6c/94/f66c94c90f7e2591b2133288222f6345.jpg",
             "https://i.pinimg.com/236x/13/9c/0f/139c0fc6594518df8ee3719fba05a824.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Hal Jordan",
-        "character_name": "Linterna Verde",
+        "character_name": "Green Lantern",
         "year_of_appearance": "1940",
         "house": "DC",
         "biography": "La vida de Hal Jordan cambió dos veces al estrellarse un avión. La primera vez fue cuando presenció la muerte de su padre, el piloto Martin Jordan. La segunda fue cuando, como un adulto y piloto entrenado, fue convocado a los restos estrellados de una nave espacial perteneciente a un extraterrestre llamado Abin Sur. Abin explicó que era miembro del Green Lantern Corps, una organización de seres de todo el cosmos, armado con anillos de poder alimentados por la energía verde de toda la fuerza de voluntad en el universo. Tras su muerte, Abin confió su anillo y sus deberes como el sector espacial de la Linterna Verde de la Tierra a Hal Jordan. La vida de Hal como linterna verde no ha sido fácil. Ha tenido que luchar no solo contra enemigos, sino a menudo amigos, colegas y seres queridos. Pero a pesar de la tensión que su identidad de Green Lantern ha puesto en su vida, Hal es un hombre honesto que puede operar sin miedo y siempre está dispuesto a proteger a los necesitados, ya sea solo, con el Cuerpo o junto con la Liga de la Justicia y el otro Súper de la Tierra. Héroes Porque Hal ha hecho el juramento de cada Linterna Verde: que ningún mal escapará a su vista.",
@@ -553,10 +641,11 @@ characters = [{
             "https://i.pinimg.com/236x/9d/69/10/9d6910bcf98b00d5a6d093e41e15810e.jpg",
             "https://i.pinimg.com/236x/fd/2d/de/fd2ddeed780f213fa05371022fe7fea4.jpg",
             "https://i.pinimg.com/236x/81/73/4c/81734cf07ba9a0b0bc6ff2b2d5e6c843.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Jay Garrick",
-        "character_name": "Flash",
+        "character_name": "The Flash",
         "year_of_appearance": "1940",
         "house": "DC",
         "biography": "El misterioso poder conocido como Speed ​​Force es un campo de energía que, a lo largo de los siglos, ha otorgado increíbles poderes de velocidad a ciertos héroes. El más famoso de estos es el Flash, también conocido como el hombre vivo más rápido. Desde los días de la Segunda Guerra Mundial, ha habido un hombre vestido de rojo que puede correr a velocidades imposibles, usando su poder para salvar vidas y defender a aquellos que no pueden defenderse. Todo entre las garrapatas de un segundo. En la década de 1940, el estudiante universitario Jay Garrick adquirió sus habilidades de supervelocidad en un accidente de laboratorio aleatorio y se convirtió en el primer superhéroe de DC en llamarse Flash. Años más tarde, Jay fue sucedido por el científico de la policía Barry Allen, hasta que Wally West, el ex compañero de Barry, tomó el manto en un momento en que Barry fue considerado muerto. Pero, cuando Barry regresó, se convirtió en Flash una vez más. Las tres generaciones de velocistas han sido miembros fundamentales de Justice Society y Justice League.",
@@ -568,7 +657,8 @@ characters = [{
             "https://i.pinimg.com/236x/17/9c/af/179cafa1d146915dfe36e752278cfe6e.jpg",
             "https://i.pinimg.com/236x/df/f7/92/dff7921bae1ad05e86b8c0109718fa2e.jpg",
             "https://i.pinimg.com/236x/52/2f/f7/522ff79335adb7fa933302c53c2e790e.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Dick Grayson",
         "character_name": "Robin",
@@ -582,10 +672,11 @@ characters = [{
             "https://i.pinimg.com/236x/17/1e/de/171ede136d27668fbe87849c25a3e55d.jpg",
             "https://i.pinimg.com/236x/e3/de/15/e3de1500366f4d4a565d665447474325.jpg",
             "https://i.pinimg.com/236x/b8/b9/74/b8b97483a4cd55a49bb9f48351f5dd85.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Oswald Chesterfield Cobblepot",
-        "character_name": "Pingüino",
+        "character_name": "Penguin",
         "year_of_appearance": "1941",
         "house": "DC",
         "biography": "Este es un villano alimentado por una rabia patológica que lo obliga a convertir su extraño físico, su perfil de pájaro y su torpe torpe en una fuerza bien vestida para el miedo. Nadie sabe más sobre lo que las fuerzas malvadas de Gotham están haciendo en un momento dado que él y usa esa información para chantajear, intimidar y corromper a cualquiera que pueda, especialmente cuando está al servicio de derribar a Batman. Dicen que no debes juzgar un libro por su portada, pero también dicen que el mal es como lo hace el mal. Un maestro manipulador, el Pingüino generalmente está rodeado de violentos secuaces que hacen su voluntad sin dudar. Pero cuando se trata de una cara a cara, espere que desate una andanada mortal de una variedad de armas paraguas y otros dispositivos ingeniosos, a menudo en forma de aves. Y cuando todo lo demás falla, el Pingüino luchará tan sucio como venga, el combate cuerpo a cuerpo no altera sus plumas en absoluto.",
@@ -596,7 +687,8 @@ characters = [{
             "https://i.pinimg.com/564x/97/ad/d8/97add8122ffea98cb81e61d9d4928253.jpg",
             "https://i.pinimg.com/236x/40/da/6f/40da6f1f5d81c4a7993d92cbe41a5866.jpg",
             "https://i.pinimg.com/236x/59/1a/ac/591aac405e402a13d938f2f61ac10317.jpg"
-        ]
+        ],
+        "movies":[]
     },{
         "name": "Jack Napier",
         "character_name": "Joker",
@@ -611,6 +703,9 @@ characters = [{
             "https://i.pinimg.com/236x/81/00/35/810035dfd59cb31e6417e29869101ff2.jpg",
             "https://i.pinimg.com/236x/dc/e2/32/dce232b4eb9e523e31592ab8942f0d6d.jpg",
             "https://i.pinimg.com/236x/23/34/c9/2334c98ba6bb485fe05251899cb2a62b.jpg"
+        ],
+        "movies":[
+            "Joker"
         ]
     },{
         "name": "Harleen Frances Quinzel",
@@ -625,6 +720,7 @@ characters = [{
             "https://i.pinimg.com/236x/e6/09/1f/e6091f4f04b570e09fff2511e70a4722.jpg",
             "https://i.pinimg.com/564x/3b/e9/01/3be901587842f2176fb9a0b62cb653bd.jpg",
             "https://i.pinimg.com/236x/8f/b6/07/8fb607b316c439b4f258c2017834edad.jpg"
-        ]
+        ],
+        "movies":[]
     }]
 

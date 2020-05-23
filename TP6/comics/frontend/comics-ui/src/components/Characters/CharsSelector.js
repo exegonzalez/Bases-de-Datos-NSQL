@@ -7,12 +7,12 @@ export default function CharsSelector(props) {
         {
             label: 'DC',
             icon: 'pi pi-list',
-            command: (e) => props.handleListSelected('dc')
+            command: (e) => props.handleListSelected('DC')
         },
         {
             label: 'Marvel',
             icon: 'pi pi-list',
-            command: (e) => props.handleListSelected('marvel')
+            command: (e) => props.handleListSelected('Marvel')
         }
     ]
 

@@ -6,41 +6,40 @@ import {Message} from 'primereact/message'
 
 import axios from 'axios'
 import {ApiUrlBase} from '../../utils/constants'
-import capitalize from '../../utils/capitalize'
 
-export default function CharSelector(props) {
+export default function MovieSelector(props) {
 
     const [status, setStatus] = useState({showMessage: false, type: '', message:''})
     const handleStatus = (showMessage, type='', message='') => setStatus({showMessage: showMessage, type: type, message: message})
 
-    const [characters, setCharacters] = useState([])
-    const handleCharacters = list => setCharacters(list)
+    const [movies, setMovies] = useState([])
+    const handleMovies = list => setMovies(list)
 
-    const [charSugestions, setCharSuggestions] = useState([])
-    const handleCharSugestions = chars => setCharSuggestions(chars)
+    const [moviesSugestions, setMoviesSuggestions] = useState([])
+    const handleMoviesSugestions = movies => setMoviesSuggestions(movies)
 
     useEffect(() => {
-        const fetchCharacters = async house => {
+        const fetchMovies = async () => {
             try {
-                const charactersFetched = await axios.get(`${ApiUrlBase}/characters?house=${house === 'dc' ? house.toLocaleUpperCase() : capitalize(house)}`)
-                return charactersFetched.data 
-                    ? handleCharacters(charactersFetched.data.map(char => char.character_name))
+                const moviesFetched = await axios.get(`${ApiUrlBase}/movies`)
+                return moviesFetched.data
+                    ? handleMovies(moviesFetched.data.map(movie => movie.title))
                     : handleStatus(true, 'error', 'No hay personajes para mostrar')
             } catch (error) {
                 handleStatus(true, 'error', 'Ooops! Ha ocurrido un error al cargar la lista de Personajes')
             }
         }
-        fetchCharacters(props.house)
-    }, [props]);
+        fetchMovies()
+    }, []);
 
-    const suggestChars = event => {
+    const suggestMovies = event => {
         if (event.query !== '')
-            return handleCharSugestions([...characters].filter(char => char.toLowerCase().includes(event.query.toLowerCase())))
-        return handleCharSugestions(characters)
+            return handleMoviesSugestions([...movies].filter(movie => movie.toLowerCase().includes(event.query.toLowerCase())))
+        return handleMoviesSugestions(movies)
     }
     
     return (
-        <div className="charSelector">
+        <div className="movieSelector">
             <div className="p-grid p-justify-center m10">       
                 {
                     status.showMessage 
@@ -50,17 +49,17 @@ export default function CharSelector(props) {
             </div>
             <div className="p-grid p-justify-center m10">
                 {
-                    characters.lenght !== 0
+                    movies.lenght !== 0
                     ? 
                         <AutoComplete 
-                            value={props.characterSearched} 
-                            suggestions={charSugestions}
+                            value={props.movieSearched} 
+                            suggestions={moviesSugestions}
                             size={30} 
                             minLength={1}
                             placeholder="Buscar..." 
                             dropdown={true} 
-                            onChange={e => props.handleCharacterSearched(e.target.value)}
-                            completeMethod={e => suggestChars(e)}
+                            onChange={e => props.handleMovieSearched(e.target.value)}
+                            completeMethod={e => suggestMovies(e)}
                         />
                     : <ProgressSpinner 
                             style={{

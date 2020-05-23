@@ -1,34 +1,38 @@
 import React from 'react';
+
 import {Card} from 'primereact/card';
+
+import {TheMovieDBImagesUrlBase} from '../../utils/constants'
 
 export default function CharCard(props) {
 
     const header = (
-        <img alt="Card" src={`${props.character.images[0]}`}/>
+        <img alt="Card" src={`${TheMovieDBImagesUrlBase}${props.movie.poster_path}`}/>
     );
     const footer = (
         <span>
-            <a className="detail" href={`/characters/${props.character.house}/${props.character._id}`}>Detalle</a>
+            <a className="detail" href={`/movies/${props.movie._id}`}>Detalle</a>
         </span>
     );
     return (
         <Card 
-            title={props.character.character_name} 
-            subTitle={`${props.character.name} (${props.character.year_of_appearance})`} 
+            title={props.movie.title} 
+            subTitle={`${props.movie.title} (${props.movie.release_date})`} 
+            style={{maxWidth: '280px', minWidth: '250px'}} 
             className="ui-card-shadow m5" 
-            footer={footer} 
             header={header}
-            >
+            footer={footer} 
+        >
             <div>
                 <p
                 style={{
-                    width: '75px',
+                    width: '200px',
                     whiteSpace: 'nowrap',
                     overflow: 'hidden',
                     textOverflow: 'ellipsis',
                 }}
                 >
-                    {props.character.biography}
+                    {props.movie.overview}
                 </p>
             </div>
         </Card>

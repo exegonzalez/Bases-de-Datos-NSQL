@@ -14,18 +14,25 @@ export default function Navbar() {
         label: null, 
         icon: 'fa fa-dc', 
         items: [
-          {label:"New", icon: 'pi pi-fw pi-plus', url: '/dc/new'},
-          {label:"Edit", icon: 'pi pi-fw pi-pencil', url: '/dc/edit'},
-          {label:"Delete", icon: 'pi pi-fw pi-trash', url: '/dc/delete'},
+          {label:"New", icon: 'pi pi-fw pi-plus', url: '/characters/dc/new'},
+          {label:"Edit", icon: 'pi pi-fw pi-pencil', url: '/characters/dc/edit'},
+          {label:"Delete", icon: 'pi pi-fw pi-trash', url: '/characters/dc/delete'},
         ]},
       {
         label: null, icon: 'fa fa-marvel',
         items: [
-          {label:"New", icon: 'pi pi-fw pi-plus', url: '/marvel/new'},
-          {label:"Edit", icon: 'pi pi-fw pi-pencil', url: '/marvel/edit'},
-          {label:"Delete", icon: 'pi pi-fw pi-trash', url: '/marvel/delete'},
+          {label:"New", icon: 'pi pi-fw pi-plus', url: '/characters/marvel/new'},
+          {label:"Edit", icon: 'pi pi-fw pi-pencil', url: '/characters/marvel/edit'},
+          {label:"Delete", icon: 'pi pi-fw pi-trash', url: '/characters/marvel/delete'},
         ]
-      }
+      },
+      {
+        label: null, icon: 'fa fa-movies',
+        items: [
+          {label:"New", icon: 'pi pi-fw pi-plus', url: '/movies/new'},
+          {label:"Delete", icon: 'pi pi-fw pi-trash', url: '/movies/delete'},
+        ]
+      },
     ]
 
     return (
