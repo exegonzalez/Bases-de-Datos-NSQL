@@ -10,7 +10,7 @@ def load_collections():
     """Insertamos los personajes por defecto a la BBDD"""
     try:
         Restaurants.flush()
-        Restaurants.save()
+        Restaurants.load()
         return 'OK'
     except:
         raise
@@ -20,7 +20,7 @@ def restaurant_abm():
     try:
         if request.method == 'DELETE':
             remove_result = Restaurants.remove(request.args['_id'])
-            return 'ok'
+            return 'OK'
 
         if request.method == 'GET':
             if request.args:
@@ -28,11 +28,11 @@ def restaurant_abm():
 
         if request.method == 'POST':
             add_result = Restaurants.add(request.get_json())
-            return 'ok'
+            return 'OK'
         
         if request.method == 'PUT':
             modify_result = Restaurants.modify(request.get_json())
-            return 'ok'
+            return 'OK'
             
     except:
         raise

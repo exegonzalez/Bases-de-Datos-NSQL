@@ -1,15 +1,16 @@
-from pymongo import MongoClient
+import firebase_admin
+from firebase_admin import credentials, firestore
+import os
 
-def connectionDB(host, port, database):
+firebase_credential_path = os.path.abspath('src/db/credentials/firebase.json')
+
+def connectionDB(firebase_credential):
     try:
-        client = MongoClient(host, port)
-        db = client.get_database(database)
+        cred = credentials.Certificate(firebase_credential)
+        firebase_admin.initialize_app(cred)
+        db = firestore.client()
         return db
     except :
         raise
 
-_host_db_clustering_map ='db_clustering_map'
-_port_db_clustering_map = 27017
-_db_clustering_map = 'clustering_map'
-
-db_clustering_map = connectionDB(_host_db_clustering_map, _port_db_clustering_map, _db_clustering_map)
+db_clustering_map = connectionDB(firebase_credential_path)

@@ -10,14 +10,6 @@ services:
             - '5000:5000'
         volumes:
             - './backend/api:/backend/api'
-        depends_on:
-            - 'db_clustering_map'
-
-    db_clustering_map:
-        container_name: 'db_clustering_map'
-        image: mongo
-        ports:
-            - '27017:27017'
 
     frontend:
         build: ./frontend/clustering-map-ui
